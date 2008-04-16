@@ -1,0 +1,7 @@
+Create a Rails application that is hosted in a
+Git repository with log files, tmp files, and
+database.yml all being ignored.
+
+Written by Jonathan George <jonathan@jdg.net> 08/16/08
+Based on 'svnrails' by Matt Mower <self@mattmower.com> 07/02/07
+... which is based on the Bash script by Akhil Bansal
