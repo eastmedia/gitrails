@@ -31,7 +31,7 @@ def execute(cmd)
 end
 
 puts "Creating rails application: #{project}"
-execute "rails #{project}"
+execute_in_current_dir "rails #{project}"
 
 puts "Removing log files"
 execute "rm -rf log/*"
