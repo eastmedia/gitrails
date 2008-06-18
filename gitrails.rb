@@ -71,6 +71,7 @@ execute "git commit -m '* Moving rspec and rspec on rails to version 1.1.4'"
 ########################
 # Rails
 #######################
+
 puts "* Checkout out rails in vendor/rails (this might take a while)"
 execute "git submodule add git://github.com/rails/rails.git vendor/rails"
 execute "git add ."
